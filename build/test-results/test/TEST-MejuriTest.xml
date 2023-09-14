@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MejuriTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-14T08:08:13" hostname="DESKTOP-EP2QMIV" time="38.205">
+  <properties/>
+  <testcase name="MejuriTest()" classname="MejuriTest" time="38.205"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\SAMUDITH NANAYAKKARA\IdeaProjects\TestQAAutomationTask\build\downloads\1694678886886_2540_1
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=116.0.5845.188 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.18.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.12.1 build revision: 8e34639b11
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (636e2e3fc4c60f2293f7ae0d1fb7d149)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (636e2e3fc4c60f2293f7ae0d1fb7d149),proxy=null,downloadsFolder=C:\Users\SAMUDITH NANAYAKKARA\IdeaProjects\TestQAAutomationTask\build\downloads\1694678886886_2540_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.logevents.SimpleReport - Report for [engine:junit-jupiter]/[class:MejuriTest]/[method:MejuriTest()]
++-------------------------------------------------------------------------------------------------------+---------------------------------+------------+------------+
+| Element                                                                                               | Subject                         | Status     | ms.        |
++-------------------------------------------------------------------------------------------------------+---------------------------------+------------+------------+
+| By.xpath: //button[@id='onetrust-accept-btn-handler']                                                 | should be(visible)              | PASS       | 581        |
+| By.xpath: //button[@id='onetrust-accept-btn-handler']                                                 | click()                         | PASS       | 336        |
+| By.xpath: //header/div[1]/div[2]/ul[1]/li[2]/button[1]                                                | should be(visible)              | PASS       | 67         |
+| By.xpath: //header/div[1]/div[2]/ul[1]/li[2]/button[1]                                                | click()                         | PASS       | 2910       |
+| By.name: email                                                                                        | should be(visible)              | PASS       | 999        |
+| By.name: email                                                                                        | set value(yomev23411@ipnuc.com) | PASS       | 391        |
+| By.name: password                                                                                     | should be(visible)              | PASS       | 38         |
+| By.name: password                                                                                     | set value(Pass@12345)           | PASS       | 240        |
+| By.xpath: //button[contains(@type,'submit')]                                                          | should be(visible)              | PASS       | 41         |
+| By.xpath: //button[contains(@type,'submit')]                                                          | click()                         | PASS       | 354        |
+| By.xpath: //span[contains(text(),'Now What?')]                                                        | should be(visible)              | PASS       | 4123       |
+| By.xpath: //span[contains(text(),'Now What?')]                                                        | is displayed()                  | PASS       | 2383       |
+| By.xpath: //body/div[@id='portal-modal-container']/div[1]/div[2]/div[1]/button[1]/i[1]/*[1]           | should be(visible)              | PASS       | 49         |
+| By.xpath: //body/div[@id='portal-modal-container']/div[1]/div[2]/div[1]/button[1]/i[1]/*[1]           | click()                         | PASS       | 398        |
+| By.xpath: //body[1]/div[1]/div[2]/header[1]/div[1]/nav[1]/ul[1]/li[4]/a[1]/span[1]/span[1]            | should be(visible)              | PASS       | 127        |
+| By.xpath: //body[1]/div[1]/div[2]/header[1]/div[1]/nav[1]/ul[1]/li[4]/a[1]/span[1]/span[1]            | click()                         | PASS       | 232        |
+| By.xpath: //body[1]/div[1]/div[2]/header[1]/div[1]/div[2]/ul[1]/li[1]/button[1]                       | should be(visible)              | PASS       | 67         |
+| By.xpath: //body[1]/div[1]/div[2]/header[1]/div[1]/div[2]/ul[1]/li[1]/button[1]                       | click()                         | PASS       | 9718       |
+| By.xpath: //body/div[@id='__next']/div[3]/section[1]/div[1]/div[1]/div[1]/input[1]                    | should be(visible)              | PASS       | 120        |
+| By.xpath: //body/div[@id='__next']/div[3]/section[1]/div[1]/div[1]/div[1]/input[1]                    | set value(Honey Mini Signet)    | PASS       | 422        |
+| By.xpath: //body/div[@id='__next']/div[3]/section[1]/div[1]/div[1]/div[1]/input[1]                    | press enter()                   | PASS       | 120        |
+| By.xpath: //h6[contains(text(),'Honey Signet')]                                                       | should be(visible)              | PASS       | 1493       |
+| By.xpath: //h6[contains(text(),'Honey Signet')]                                                       | click()                         | PASS       | 176        |
+| By.xpath: //body/div[@id='__next']/main[1]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/button[2] | should be(visible)              | PASS       | 7205       |
+| By.xpath: //body/div[@id='__next']/main[1]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/button[2] | click()                         | PASS       | 433        |
+| By.xpath: //body[1]/div[2]/div[2]/header[1]/div[1]/div[2]/ul[1]/li[3]/a[1]                            | should be(visible)              | PASS       | 166        |
+| By.xpath: //body[1]/div[2]/div[2]/header[1]/div[1]/div[2]/ul[1]/li[3]/a[1]                            | click()                         | PASS       | 189        |
+| By.xpath: //h2[contains(text(),'My wishlist')]                                                        | should be(visible)              | PASS       | 4405       |
+| By.xpath: //h2[contains(text(),'My wishlist')]                                                        | should have(text "MY WISHLIST") | PASS       | 65         |
+| By.xpath: //span[contains(text(),'Honey Mini Signet')]                                                | should be(visible)              | PASS       | 87         |
+| By.xpath: //span[contains(text(),'Honey Mini Signet')]                                                | should have()                   | PASS       | 0          |
++-------------------------------------------------------------------------------------------------------+---------------------------------+------------+------------+
+
+]]></system-err>
+</testsuite>
